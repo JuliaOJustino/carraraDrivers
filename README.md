@@ -44,7 +44,7 @@ f) Siga a tabela abaixo para calcular o adicional por bandeira e horário:
 
 Obs: O valor nominal da corrida é de R$ 1,25 por km;
 
-<img src="tabela.png" alt="Tabela de preços">
+<img src="carrara/tabela.png" alt="Tabela de preços">
 
   g)  Faça o ajuste do valor corrida da seguinte forma:
 
