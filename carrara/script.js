@@ -46,8 +46,8 @@ function fun_carrara() {
       let valorCard = valor + cartao;
       console.log(valorCard);
       console.log("fdjedsfhsfusfghsdhfghhhhhhhhhhhhhhhhh");
-      msg.innerHTML = ` Olá, ${nomePassageiro}. Sua corrida, será na bandeira ${numeroBandeira}, percorrerá ${distancia} km e o total da corrida será de ${valor}<br> <ul> A Forma de pagamento altera o valor da corrida! <br><li> A Forma de pagamento altera o valor da corrida! <br> Em PIX o valor será de ${valorPix}.</li> <br> <li>Em cartão (debito ou crédito) será o valor de ${valorCard}</li>.
-      <br><li> Para pagamento em dinheiro o ${valor} não se altera, (favor facilitar o troco).</li></ul>`;
+      msg.innerHTML = ` Olá, ${nomePassageiro}. Sua corrida, será na bandeira R$: ${numeroBandeira}, percorrerá ${distancia} km e o total da corrida será de R$:${valor}<br> <ul> A Forma de pagamento altera o valor da corrida! <br><li> A Forma de pagamento altera o valor da corrida! <br> Em PIX o valor será de R$:${valorPix}.</li> <br> <li>Em cartão (debito ou crédito) será o valor de R$:${valorCard}</li>.
+      <br><li> Para pagamento em dinheiro o R$:${valor} não se altera, (favor facilitar o troco).</li></ul>`;
 
 
       
@@ -57,16 +57,16 @@ function fun_carrara() {
       let valorPix = valor - pix;
       let valorCard = valor + cartao;
       console.log("kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk");
-      msg.innerHTML = ` Olá, ${nomePassageiro}. Sua corrida, será na bandeira ${numeroBandeira}, percorrerá ${distancia} km e o total da corrida será de ${valor}<br> <ul <br><li> A Forma de pagamento altera o valor da corrida! <br> Em PIX o valor será de ${valorPix}.</li> <br> <li>Em cartão (debito ou crédito) será o valor de ${valorCard}</li>.
-      <br><li> Para pagamento em dinheiro o ${valor} não se altera, (favor facilitar o troco).</li></ul>`;
+      msg.innerHTML = ` Olá, ${nomePassageiro}. Sua corrida, será na bandeira R$: ${numeroBandeira}, percorrerá ${distancia} km e o total da corrida será de R$:${valor}<br> <ul> A Forma de pagamento altera o valor da corrida! <br><li> A Forma de pagamento altera o valor da corrida! <br> Em PIX o valor será de R$:${valorPix}.</li> <br> <li>Em cartão (debito ou crédito) será o valor de R$:${valorCard}</li>.
+      <br><li> Para pagamento em dinheiro o R$:${valor} não se altera, (favor facilitar o troco).</li></ul>`;
     } else {
       valorTaxa = valor * 0.125;
       valor = valor + valorTaxa;
       let valorPix = valor - pix;
       let valorCard = valor + cartao;
       console.log("funciona klkkkkkkkkkkllllllllllllllllllllllll");
-      msg.innerHTML = ` Olá, ${nomePassageiro}. Sua corrida, será na bandeira ${numeroBandeira}, percorrerá ${distancia} km e o total da corrida será de ${valor}<br> <ul <br><li> A Forma de pagamento altera o valor da corrida! <br> Em PIX o valor será de ${valorPix}.</li> <br> <li>Em cartão (debito ou crédito) será o valor de ${valorCard}</li>.
-      <br><li> Para pagamento em dinheiro o ${valor} não se altera, (favor facilitar o troco).</li></ul>`;
+      msg.innerHTML = ` Olá, ${nomePassageiro}. Sua corrida, será na bandeira R$: ${numeroBandeira}, percorrerá ${distancia} km e o total da corrida será de R$:${valor}<br> <ul> A Forma de pagamento altera o valor da corrida! <br><li> A Forma de pagamento altera o valor da corrida! <br> Em PIX o valor será de R$:${valorPix}.</li> <br> <li>Em cartão (debito ou crédito) será o valor de R$:${valorCard}</li>.
+      <br><li> Para pagamento em dinheiro o R$:${valor} não se altera, (favor facilitar o troco).</li></ul>`;
     }
   }
   if (numeroBandeira == 2) {
@@ -75,16 +75,16 @@ function fun_carrara() {
       valor = valor + valorTaxa;
       let valorPix = valor - pix;
       let valorCard = valor + cartao;
-      msg.innerHTML = ` Olá, ${nomePassageiro}. Sua corrida, será na bandeira ${numeroBandeira}, percorrerá ${distancia} km e o total da corrida será de ${valor}<br> <ul <br><li> A Forma de pagamento altera o valor da corrida! <br> Em PIX o valor será de ${valorPix}.</li> <br> <li>Em cartão (debito ou crédito) será o valor de ${valorCard}</li>.
-      <br><li> Para pagamento em dinheiro o ${valor} não se altera, (favor facilitar o troco).</li></ul>`;
+      msg.innerHTML = ` Olá, ${nomePassageiro}. Sua corrida, será na bandeira R$: ${numeroBandeira}, percorrerá ${distancia} km e o total da corrida será de R$:${valor}<br> <ul> A Forma de pagamento altera o valor da corrida! <br><li> A Forma de pagamento altera o valor da corrida! <br> Em PIX o valor será de R$:${valorPix}.</li> <br> <li>Em cartão (debito ou crédito) será o valor de R$:${valorCard}</li>.
+      <br><li> Para pagamento em dinheiro o R$:${valor} não se altera, (favor facilitar o troco).</li></ul>`;
       console.log("Etapa 2   fdjedsfhsfusfghsdhfghhhhhhhhhhhhhhhhh");
     } else if (horario <= 12) {
       valorTaxa = valor * 0.15;
       valor = valor + valorTaxa;
       let valorPix = valor - pix;
       let valorCard = valor + cartao;
-      msg.innerHTML = ` Olá, ${nomePassageiro}. Sua corrida, será na bandeira ${numeroBandeira}, percorrerá ${distancia} km e o total da corrida será de ${valor}<br> <ul <br><li> A Forma de pagamento altera o valor da corrida! <br> Em PIX o valor será de ${valorPix}.</li> <br> <li>Em cartão (debito ou crédito) será o valor de ${valorCard}</li>.
-      <br><li> Para pagamento em dinheiro o ${valor} não se altera, (favor facilitar o troco).</li></ul>`;
+      msg.innerHTML = ` Olá, ${nomePassageiro}. Sua corrida, será na bandeira R$: ${numeroBandeira}, percorrerá ${distancia} km e o total da corrida será de R$:${valor}<br> <ul> A Forma de pagamento altera o valor da corrida! <br><li> A Forma de pagamento altera o valor da corrida! <br> Em PIX o valor será de R$:${valorPix}.</li> <br> <li>Em cartão (debito ou crédito) será o valor de R$:${valorCard}</li>.
+      <br><li> Para pagamento em dinheiro o R$:${valor} não se altera, (favor facilitar o troco).</li></ul>`;
       console.log("Etapa 2  kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk");
      
     } else {
@@ -92,8 +92,8 @@ function fun_carrara() {
       valor = valor + valorTaxa;
       let valorPix = valor - pix;
       let valorCard = valor + cartao;
-      msg.innerHTML = ` Olá, ${nomePassageiro}. Sua corrida, será na bandeira ${numeroBandeira}, percorrerá ${distancia} km e o total da corrida será de ${valor}<br> <ul <br><li> A Forma de pagamento altera o valor da corrida! <br> Em PIX o valor será de ${valorPix}.</li> <br> <li>Em cartão (debito ou crédito) será o valor de ${valorCard}</li>.
-      <br><li> Para pagamento em dinheiro o ${valor} não se altera, (favor facilitar o troco).</li></ul>`;
+      msg.innerHTML = ` Olá, ${nomePassageiro}. Sua corrida, será na bandeira R$: ${numeroBandeira}, percorrerá ${distancia} km e o total da corrida será de R$:${valor}<br> <ul> A Forma de pagamento altera o valor da corrida! <br><li> A Forma de pagamento altera o valor da corrida! <br> Em PIX o valor será de R$:${valorPix}.</li> <br> <li>Em cartão (debito ou crédito) será o valor de R$:${valorCard}</li>.
+      <br><li> Para pagamento em dinheiro o R$:${valor} não se altera, (favor facilitar o troco).</li></ul>`;
       console.log("Etapa 2  funciona klkkkkkkkkkkllllllllllllllllllllllll");
     }
 
@@ -104,8 +104,8 @@ function fun_carrara() {
         valor = valor + valorTaxa;
         let valorPix = valor - pix;
         let valorCard = valor + cartao;
-        msg.innerHTML = ` Olá, ${nomePassageiro}. Sua corrida, será na bandeira ${numeroBandeira}, percorrerá ${distancia} km e o total da corrida será de ${valor}<br> <ul <br><li> A Forma de pagamento altera o valor da corrida! <br> Em PIX o valor será de ${valorPix}.</li> <br> <li>Em cartão (debito ou crédito) será o valor de ${valorCard}</li>.
-      <br><li> Para pagamento em dinheiro o ${valor} não se altera, (favor facilitar o troco).</li></ul>`;
+        msg.innerHTML = ` Olá, ${nomePassageiro}. Sua corrida, será na bandeira R$: ${numeroBandeira}, percorrerá ${distancia} km e o total da corrida será de R$:${valor}<br> <ul> A Forma de pagamento altera o valor da corrida! <br><li> A Forma de pagamento altera o valor da corrida! <br> Em PIX o valor será de R$:${valorPix}.</li> <br> <li>Em cartão (debito ou crédito) será o valor de R$:${valorCard}</li>.
+        <br><li> Para pagamento em dinheiro o R$:${valor} não se altera, (favor facilitar o troco).</li></ul>`;
         console.log("Etapa 3   fdjedsfhsfusfghsdhfghhhhhhhhhhhhhhhhh");
       
       } else if (horario <= 12) {
@@ -113,8 +113,8 @@ function fun_carrara() {
         valor = valor + valorTaxa;
         let valorPix = valor - pix;
         let valorCard = valor + cartao;
-        msg.innerHTML = ` Olá, ${nomePassageiro}. Sua corrida, será na bandeira ${numeroBandeira}, percorrerá ${distancia} km e o total da corrida será de ${valor}<br> <ul <br><li> A Forma de pagamento altera o valor da corrida! <br> Em PIX o valor será de ${valorPix}.</li> <br> <li>Em cartão (debito ou crédito) será o valor de ${valorCard}</li>.
-      <br><li> Para pagamento em dinheiro o ${valor} não se altera, (favor facilitar o troco).</li></ul>`;
+        msg.innerHTML = ` Olá, ${nomePassageiro}. Sua corrida, será na bandeira R$: ${numeroBandeira}, percorrerá ${distancia} km e o total da corrida será de R$:${valor}<br> <ul> A Forma de pagamento altera o valor da corrida! <br><li> A Forma de pagamento altera o valor da corrida! <br> Em PIX o valor será de R$:${valorPix}.</li> <br> <li>Em cartão (debito ou crédito) será o valor de R$:${valorCard}</li>.
+        <br><li> Para pagamento em dinheiro o R$:${valor} não se altera, (favor facilitar o troco).</li></ul>`;
         console.log("Etapa 3  kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk");
         
       } else {
@@ -122,8 +122,8 @@ function fun_carrara() {
         valor = valor + valorTaxa;
         let valorPix = valor - pix;
         let valorCard = valor + cartao;
-        msg.innerHTML = ` Olá, ${nomePassageiro}. Sua corrida, será na bandeira ${numeroBandeira}, percorrerá ${distancia} km e o total da corrida será de ${valor}<br> <ul <br><li> A Forma de pagamento altera o valor da corrida! <br> Em PIX o valor será de ${valorPix}.</li> <br> <li>Em cartão (debito ou crédito) será o valor de ${valorCard}</li>.
-      <br><li> Para pagamento em dinheiro o ${valor} não se altera, (favor facilitar o troco).</li></ul>`;
+        msg.innerHTML = ` Olá, ${nomePassageiro}. Sua corrida, será na bandeira R$: ${numeroBandeira}, percorrerá ${distancia} km e o total da corrida será de R$:${valor}<br> <ul> A Forma de pagamento altera o valor da corrida! <br><li> A Forma de pagamento altera o valor da corrida! <br> Em PIX o valor será de R$:${valorPix}.</li> <br> <li>Em cartão (debito ou crédito) será o valor de R$:${valorCard}</li>.
+        <br><li> Para pagamento em dinheiro o R$:${valor} não se altera, (favor facilitar o troco).</li></ul>`;
         console.log("Etapa 3  funciona klkkkkkkkkkkllllllllllllllllllllllll");
       }
     }
